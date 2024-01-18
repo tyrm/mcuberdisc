@@ -8,6 +8,7 @@ type KeyNames struct {
 	// application
 	ApplicationName    string
 	ApplicationWebsite string
+	LogFilePath        string
 	SoftwareVersion    string
 }
 
@@ -19,5 +20,6 @@ var Keys = KeyNames{
 	// application
 	ApplicationName:    "application-name",
 	ApplicationWebsite: "application-website",
+	LogFilePath:        "log-file-path",
 	SoftwareVersion:    "software-version", // Set at build
 }

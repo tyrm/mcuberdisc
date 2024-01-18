@@ -8,6 +8,7 @@ type Values struct {
 	// application
 	ApplicationName    string
 	ApplicationWebsite string
+	LogFilePath        string
 	SoftwareVersion    string
 }
 
@@ -19,5 +20,6 @@ var Defaults = Values{
 	// application
 	ApplicationName:    "McUberDisc",
 	ApplicationWebsite: "https://tyr.codes/tyr/mcuberdisc",
+	LogFilePath:        "latest.log",
 	SoftwareVersion:    "dev",
 }

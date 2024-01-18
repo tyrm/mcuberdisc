@@ -7,8 +7,8 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 	"log"
-	"tyr.codes/tyr/mcuberdisc/cmd/mcuderdisc/action"
-	"tyr.codes/tyr/mcuberdisc/cmd/mcuderdisc/flag"
+	"tyr.codes/tyr/mcuberdisc/cmd/mcuberdisc/action"
+	"tyr.codes/tyr/mcuberdisc/cmd/mcuberdisc/flag"
 	"tyr.codes/tyr/mcuberdisc/internal/config"
 )
 

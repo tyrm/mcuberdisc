@@ -13,4 +13,5 @@ func Global(cmd *cobra.Command, values config.Values) {
 	// application
 	cmd.PersistentFlags().String(config.Keys.ApplicationName, values.ApplicationName, usage.ApplicationName)
 	cmd.PersistentFlags().String(config.Keys.ApplicationWebsite, values.ApplicationWebsite, usage.ApplicationWebsite)
+	cmd.PersistentFlags().String(config.Keys.LogFilePath, values.LogFilePath, usage.LogFilePath)
 }
